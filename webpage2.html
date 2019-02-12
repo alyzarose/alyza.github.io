@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CIS 128 Assigment 1</title>
+<meta charset="UTF-8" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+section {
+  float: left;
+  width: 30%;
+  height:300px;
+  padding: 20px;
+}
+
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1").addClass("blue");
+    var div = $("div");  
+    div.animate({left: '100px'}, "slow");
+    div.animate({fontSize: '3em'}, "slow");
+  });
+});
+</script>
+  <style>
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  color: blue;
+}
+</style>
+</head>
+<body>
+  <div style="background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: white;">
+    <h1>CIS 128 - HTML and CSS Page</h1></div>   
+<section>
+	<img src="IMG_3992.jpg" alt="What Alyza looks like" width="200" hight="200">
+</section>
+
+
+<aside>
+<p>Hi! I am Alyza Rose De Guzman and I have been a student at College of San Mateo since 2015</p>
+</aside>
+
+
+<p>I am currently trying to get my AS in Computer Science which is why I am taking this class to complete my requirments</p>
+
+
+
+<h2 style="text-align:center;">Technologies for This Class</h2>
+
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+
+<h2 style="text-align:center;">Resources</h2>
+
+<ul>
+  <li><a href="https://www.w3schools.com/html/html_intro.asp">Website 1</a> - This website has helped me alot in understanding HTML and CSS language. It gives examples and small tricks to help build/design a website</li>
+  <li><a href="https://www.pluralsight.com/paths/javascript?gclid=Cj0KCQiA7briBRD7ARIsABhX8aCh5AgbsHBf2QVthAkEvT6KfA_oEh991Ib3Uee53p5CwQ8tb_TeSM8aApOqEALw_wcB&utm_term=&ef_id=Cj0KCQiA7briBRD7ARIsABhX8aCh5AgbsHBf2QVthAkEvT6KfA_oEh991Ib3Uee53p5CwQ8tb_TeSM8aApOqEALw_wcB:G:s&s_kwcid=AL!5668!3!241205355301!b!!g!!%2Bjavascript%20%2Bbeginners&aid=7010a000002BSaQAAW&promo=&oid=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=US_Courses_JavaScript_BMM&utm_content=">Website 2</a> - This website offers video tutorias about JavaScript. It has helped me alot in pasts projects and assignments when I get lost. They have an easy search feature like google where you can type a word or phrase and it will give you videos and articles that will help.</li>
+</ul>
+
+    <button>Start Animation</button>
+
+</body>
+</html>
